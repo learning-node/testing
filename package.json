@@ -1,0 +1,24 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Testing",
+  "scripts": {
+    "test": "mocha test/unitTest.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learning-node/testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learning-node/testing/issues"
+  },
+  "homepage": "https://github.com/learning-node/testing#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0"
+  }
+}
